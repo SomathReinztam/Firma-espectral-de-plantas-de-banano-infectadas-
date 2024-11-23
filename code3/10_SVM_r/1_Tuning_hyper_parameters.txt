@@ -1,0 +1,23 @@
+X_train size: (385, 1364)
+y_train size: (385,)
+X_test size: (166, 1364)
+y_test size: (166,)
+
+metric: 2.6441265230341697
+C: 0.001
+Elapsed time (seconds): 0.06486082077026367
+
+metric: 1.595419536477093
+C: 0.01
+Elapsed time (seconds): 0.285203218460083
+
+metric: 1.0594933663038475
+C: 0.1
+Elapsed time (seconds): 4.561838150024414
+
+metric: 1.4532545871895186
+C: 1
+Elapsed time (seconds): 306.94789457321167
+
+
+MUCHO TIEMPO 

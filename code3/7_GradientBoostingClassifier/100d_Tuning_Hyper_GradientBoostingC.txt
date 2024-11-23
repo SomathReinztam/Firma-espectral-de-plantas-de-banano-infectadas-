@@ -1,0 +1,458 @@
+
+
+
+Best score: 0.9321266968325792
+Best parameters: {'score:': 0.9321266968325792, 'loss:': 'log_loss', 'n_estimators': 1000, 'criterion:': 'squared_error', 'max_depth:': 3, 'max_features:': 'sqrt'}
+
+
+score: 0.9276018099547512
+loss: log_loss
+n_estimators 800
+criterion: friedman_mse
+max_depth: 3
+max_features: sqrt
+
+score: 0.9276018099547512
+loss: log_loss
+n_estimators 800
+criterion: friedman_mse
+max_depth: 3
+max_features: log2
+
+score: 0.9049773755656109
+loss: log_loss
+n_estimators 800
+criterion: friedman_mse
+max_depth: 7
+max_features: sqrt
+
+score: 0.8959276018099548
+loss: log_loss
+n_estimators 800
+criterion: friedman_mse
+max_depth: 7
+max_features: log2
+
+score: 0.8959276018099548
+loss: log_loss
+n_estimators 800
+criterion: friedman_mse
+max_depth: 15
+max_features: sqrt
+
+score: 0.8597285067873304
+loss: log_loss
+n_estimators 800
+criterion: friedman_mse
+max_depth: 15
+max_features: log2
+
+score: 0.8959276018099548
+loss: log_loss
+n_estimators 800
+criterion: friedman_mse
+max_depth: 24
+max_features: sqrt
+
+score: 0.8687782805429864
+loss: log_loss
+n_estimators 800
+criterion: friedman_mse
+max_depth: 24
+max_features: log2
+
+score: 0.9276018099547512
+loss: log_loss
+n_estimators 800
+criterion: squared_error
+max_depth: 3
+max_features: sqrt
+
+score: 0.9276018099547512
+loss: log_loss
+n_estimators 800
+criterion: squared_error
+max_depth: 3
+max_features: log2
+
+score: 0.9049773755656109
+loss: log_loss
+n_estimators 800
+criterion: squared_error
+max_depth: 7
+max_features: sqrt
+
+score: 0.8868778280542986
+loss: log_loss
+n_estimators 800
+criterion: squared_error
+max_depth: 7
+max_features: log2
+
+score: 0.8868778280542986
+loss: log_loss
+n_estimators 800
+criterion: squared_error
+max_depth: 15
+max_features: sqrt
+
+score: 0.8778280542986425
+loss: log_loss
+n_estimators 800
+criterion: squared_error
+max_depth: 15
+max_features: log2
+
+score: 0.8914027149321267
+loss: log_loss
+n_estimators 800
+criterion: squared_error
+max_depth: 24
+max_features: sqrt
+
+score: 0.8914027149321267
+loss: log_loss
+n_estimators 800
+criterion: squared_error
+max_depth: 24
+max_features: log2
+
+score: 0.9276018099547512
+loss: log_loss
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 3
+max_features: sqrt
+
+score: 0.9276018099547512
+loss: log_loss
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 3
+max_features: log2
+
+score: 0.9049773755656109
+loss: log_loss
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 7
+max_features: sqrt
+
+score: 0.9049773755656109
+loss: log_loss
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 7
+max_features: log2
+
+score: 0.8823529411764706
+loss: log_loss
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 15
+max_features: sqrt
+
+score: 0.8733031674208145
+loss: log_loss
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 15
+max_features: log2
+
+score: 0.9049773755656109
+loss: log_loss
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 24
+max_features: sqrt
+
+score: 0.8687782805429864
+loss: log_loss
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 24
+max_features: log2
+
+score: 0.9321266968325792
+loss: log_loss
+n_estimators 1000
+criterion: squared_error
+max_depth: 3
+max_features: sqrt
+
+score: 0.9230769230769231
+loss: log_loss
+n_estimators 1000
+criterion: squared_error
+max_depth: 3
+max_features: log2
+
+score: 0.9049773755656109
+loss: log_loss
+n_estimators 1000
+criterion: squared_error
+max_depth: 7
+max_features: sqrt
+
+score: 0.8959276018099548
+loss: log_loss
+n_estimators 1000
+criterion: squared_error
+max_depth: 7
+max_features: log2
+
+score: 0.8959276018099548
+loss: log_loss
+n_estimators 1000
+criterion: squared_error
+max_depth: 15
+max_features: sqrt
+
+score: 0.8733031674208145
+loss: log_loss
+n_estimators 1000
+criterion: squared_error
+max_depth: 15
+max_features: log2
+
+score: 0.8959276018099548
+loss: log_loss
+n_estimators 1000
+criterion: squared_error
+max_depth: 24
+max_features: sqrt
+
+score: 0.8823529411764706
+loss: log_loss
+n_estimators 1000
+criterion: squared_error
+max_depth: 24
+max_features: log2
+
+score: 0.9230769230769231
+loss: exponential
+n_estimators 800
+criterion: friedman_mse
+max_depth: 3
+max_features: sqrt
+
+score: 0.9276018099547512
+loss: exponential
+n_estimators 800
+criterion: friedman_mse
+max_depth: 3
+max_features: log2
+
+score: 0.9049773755656109
+loss: exponential
+n_estimators 800
+criterion: friedman_mse
+max_depth: 7
+max_features: sqrt
+
+score: 0.918552036199095
+loss: exponential
+n_estimators 800
+criterion: friedman_mse
+max_depth: 7
+max_features: log2
+
+score: 0.8914027149321267
+loss: exponential
+n_estimators 800
+criterion: friedman_mse
+max_depth: 15
+max_features: sqrt
+
+score: 0.8733031674208145
+loss: exponential
+n_estimators 800
+criterion: friedman_mse
+max_depth: 15
+max_features: log2
+
+score: 0.9095022624434389
+loss: exponential
+n_estimators 800
+criterion: friedman_mse
+max_depth: 24
+max_features: sqrt
+
+score: 0.8597285067873304
+loss: exponential
+n_estimators 800
+criterion: friedman_mse
+max_depth: 24
+max_features: log2
+
+score: 0.9276018099547512
+loss: exponential
+n_estimators 800
+criterion: squared_error
+max_depth: 3
+max_features: sqrt
+
+score: 0.9230769230769231
+loss: exponential
+n_estimators 800
+criterion: squared_error
+max_depth: 3
+max_features: log2
+
+score: 0.9230769230769231
+loss: exponential
+n_estimators 800
+criterion: squared_error
+max_depth: 7
+max_features: sqrt
+
+score: 0.8778280542986425
+loss: exponential
+n_estimators 800
+criterion: squared_error
+max_depth: 7
+max_features: log2
+
+score: 0.8914027149321267
+loss: exponential
+n_estimators 800
+criterion: squared_error
+max_depth: 15
+max_features: sqrt
+
+score: 0.8778280542986425
+loss: exponential
+n_estimators 800
+criterion: squared_error
+max_depth: 15
+max_features: log2
+
+score: 0.8868778280542986
+loss: exponential
+n_estimators 800
+criterion: squared_error
+max_depth: 24
+max_features: sqrt
+
+score: 0.8733031674208145
+loss: exponential
+n_estimators 800
+criterion: squared_error
+max_depth: 24
+max_features: log2
+
+score: 0.918552036199095
+loss: exponential
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 3
+max_features: sqrt
+
+score: 0.9276018099547512
+loss: exponential
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 3
+max_features: log2
+
+score: 0.9049773755656109
+loss: exponential
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 7
+max_features: sqrt
+
+score: 0.9049773755656109
+loss: exponential
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 7
+max_features: log2
+
+score: 0.8914027149321267
+loss: exponential
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 15
+max_features: sqrt
+
+score: 0.8823529411764706
+loss: exponential
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 15
+max_features: log2
+
+score: 0.8868778280542986
+loss: exponential
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 24
+max_features: sqrt
+
+score: 0.8823529411764706
+loss: exponential
+n_estimators 1000
+criterion: friedman_mse
+max_depth: 24
+max_features: log2
+
+score: 0.9276018099547512
+loss: exponential
+n_estimators 1000
+criterion: squared_error
+max_depth: 3
+max_features: sqrt
+
+score: 0.9276018099547512
+loss: exponential
+n_estimators 1000
+criterion: squared_error
+max_depth: 3
+max_features: log2
+
+score: 0.9004524886877828
+loss: exponential
+n_estimators 1000
+criterion: squared_error
+max_depth: 7
+max_features: sqrt
+
+score: 0.9049773755656109
+loss: exponential
+n_estimators 1000
+criterion: squared_error
+max_depth: 7
+max_features: log2
+
+score: 0.8868778280542986
+loss: exponential
+n_estimators 1000
+criterion: squared_error
+max_depth: 15
+max_features: sqrt
+
+score: 0.8642533936651584
+loss: exponential
+n_estimators 1000
+criterion: squared_error
+max_depth: 15
+max_features: log2
+
+score: 0.8959276018099548
+loss: exponential
+n_estimators 1000
+criterion: squared_error
+max_depth: 24
+max_features: sqrt
+
+score: 0.8687782805429864
+loss: exponential
+n_estimators 1000
+criterion: squared_error
+max_depth: 24
+max_features: log2
+
+
+Best score: 0.9321266968325792
+Best parameters: {'score:': 0.9321266968325792, 'loss:': 'log_loss', 'n_estimators': 1000, 'criterion:': 'squared_error', 'max_depth:': 3, 'max_features:': 'sqrt'}

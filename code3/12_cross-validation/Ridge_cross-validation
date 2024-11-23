@@ -1,0 +1,13 @@
+
+Se obtienen los siguientes coeficientes de determinación:
+[0.97545938 0.97106625 0.96327245 0.98183275 0.96606683 0.97505724]
+
+Max R-Squared: 0.9818327462784343
+Min R-Squared: 0.963272453975082
+Promedio R-Squared: 0.972
+Desviación Estándar: 0.006
+Intervalo de confianza 95%: [0.96362175 0.98103607]
+
+score en test: 0.9732863918335373
+
+mean_absolute_error en test: 0.05561955495025598

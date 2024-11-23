@@ -1,0 +1,12 @@
+
+
+mean_absolute_error train: 0.5513345796575528
+r2_score train: 0.991668439863453
+mean_squared_error train: 0.5176969816548511
+
+mean_absolute_error test: 0.9255145111118562
+r2_score test: 0.9762720467058605
+mean_squared_error test: 1.364183376012472
+
+
+

@@ -1,0 +1,63 @@
+def train_model(x_tr, y_tr, x_tst, y_tst):
+    '''
+    Parámetros:
+        x_tr : Conjunto de datos de entrenamiento con las variables independientes.
+        y_tr : Conjunto de datos de entrenamiento con la variable dependiente.
+        x_tst : Conjunto de datos de prueba con las variables independientes.
+        y_tst : Conjunto de datos de prueba con la variable dependiente.
+    '''
+    try:
+        reg = LinearRegression()
+        reg.fit(x_tr, y_tr)
+    except Exception as e:
+        msg = f'Error durante el entrenamiento: {e}'
+        raise Exception(msg) from e
+    else:
+        train_score = reg.score(x_tr, y_tr)
+        test_score = reg.score(x_tst, y_tst)
+        print('Entrenamiento completado')
+        print('Score del conjunto de entrenamiento: {:.3f}'.format(train_score))
+        print('Score del conjunto de prueba: {:.3f}'.format(test_score))
+        
+if __name__ == "__main__":
+    train_model(X_train, y_train, X_test, y_test)
+
+
+
+-----------------------------------------------------------------------------------
+
+
+# Se importan las librerias necesarias
+from sklearn.model_selection import cross_val_score, KFold
+
+def evaluate_regression_model(X_var, y_var):
+    """
+    Evalúa un modelo de regresión mediante la técnica de KFold Cross Validation.
+    
+    Parámetros:
+        X_train: Conjunto de entrenamiento con las variables independientes.
+        y_train: Conjunto de entrenamiento con la variable dependiente (target).
+    """
+    try:
+        # Se crea el objeto KFold que se usará como estrategia de cross-validation
+        kf = KFold(n_splits=7, shuffle=True, random_state=68)
+        # Carga del modelo de regresión
+        reg = LinearRegression()
+        # Generación de resultados usando kf como estrategia de cross-validation
+        cv_scores = cross_val_score(reg, X_train, y_train, cv=kf)
+        if cv_scores is not None:
+            cv_scores = [round(num, 3) for num in cv_scores]
+            print('Se obtienen los siguientes coeficientes de determinación:')
+            print(cv_scores, '\n')
+            print(f'Max R-Squared: {max(cv_scores)}')
+            print(f'Min R-Squared: {min(cv_scores)}')
+            print('Promedio R-Squared: {:.3f}'.format(np.mean(cv_scores)))
+            print('Desviación Estándar: {:.3f}'.format(np.std(cv_scores)))
+            print(f'Intervalo de confianza 95%: {np.quantile(cv_scores, [0.025, 0.975])}')
+    except Exception as e:
+        print(e)
+        
+if __name__ == "__main__":
+    evaluate_regression_model(X, y)
+
+

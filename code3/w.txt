@@ -1,0 +1,80 @@
+[('Con', 0), ('Fo5', 1), ('IsB', 2), ('Var', 3), ('ViE', 4), ('HyS', 5)]
+
+[(0, 'Con'), (1, 'Fo5'), (2, 'IsB'), (3, 'Var'), (4, 'ViE'), (5, 'HyS')]
+
+
+
+Para subir tu código al repositorio en GitHub desde la carpeta local, puedes seguir estos pasos usando Git en la terminal:
+
+Abre la terminal y navega a tu carpeta de código:
+cd "C:\Users\Acer\Documents\python\Proyecto de investigacion\code2"
+
+Inicializa Git en la carpeta (si aún no lo has hecho):
+git init
+
+Conecta la carpeta local a tu repositorio de GitHub: Copia y pega este comando reemplazando con la URL de tu repositorio en GitHub:
+git remote add origin https://github.com/SomathReinztam/huellas-espectrales-modelacion-matematica.git
+
+Agrega los archivos para prepararlos para el commit:
+git add .
+
+Realiza un commit:
+git commit -m "Subiendo el código inicial del proyecto"
+
+Envía los archivos al repositorio en GitHub:
+git push -u origin master
+
+Esto debería subir todo el contenido de tu carpeta code2 al repositorio en GitHub.
+
+git init
+git remote add origin https://github.com/SomathReinztam/huellas-espectrales-modelacion-matematica.git
+git add .
+git commit -m "Subiendo el código inicial del proyecto"
+it push -u origin master
+
+
+
+Para actualizar el código en GitHub cuando hayas hecho cambios en tu carpeta local, sigue estos pasos:
+
+Navega a la carpeta de tu proyecto en la terminal:
+cd "C:\Users\Acer\Documents\python\Proyecto de investigacion\code2"
+
+Revisa los cambios que has realizado (opcional, pero útil para verificar qué se modificará):
+git status
+
+Agrega los archivos modificados para prepararlos para el commit:
+git add .
+
+Realiza un nuevo commit:
+git commit -m "Actualización del código con mejoras/cambios recientes"
+
+Envía los cambios al repositorio en GitHub:
+git push origin master
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+En el siguiente codigo python como hago para agrandar el 
+tamaño de la imagn del plot y como hago para 
+cambiar los colores del plot:
+
+def plot_heat_map(df):
+    data = df.corr()
+
+    fig, ax = plt.subplots()
+    im = ax.imshow(data)
+
+    cbar = ax.figure.colorbar(im, ax = ax)
+    cbar.ax.set_ylabel("Color bar", rotation = -90, va = "bottom")
+
+    plt.show()
